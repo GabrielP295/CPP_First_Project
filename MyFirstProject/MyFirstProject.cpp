@@ -7,7 +7,7 @@ int main()
     double rate;
 	cout << "Enter number of hours worked: ";
     cin >> hours;
-    cout << "Enter the pay rate as a decimal: "
+    cout << "Enter the pay rate as a decimal: ";
     cin >> rate;
     double payment = hours * rate;
     double paymentPerMonth = payment * 4;
