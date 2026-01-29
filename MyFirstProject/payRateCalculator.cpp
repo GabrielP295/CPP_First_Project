@@ -20,15 +20,15 @@ int main()
 	cout << "Payment across internship is: $" << paymentAcrossInternship << endl;
     cout << "Gabriel Paniagua!\n";
 
-    double overtimePay = calculateOvertime(45, 17.50);
-    cout << "Total Pay with Overtime is " << overtimePay << endl;
+    double overtimePay = calculateOvertime(hours, rate);
+    cout << "Total Pay per week with Overtime is " << overtimePay << endl;
 }
 
 double calculateOvertime(int totalHours, double rate) {
-    int overtimeHours = totalHours - 40;
-    if (overtimeHours <= 40) {
+    if (totalHours <= 40) {
         return totalHours;
     }
+    int overtimeHours = totalHours - 40;
     return (totalHours * rate) + (overtimeHours * rate * 1.5);
 }
 
