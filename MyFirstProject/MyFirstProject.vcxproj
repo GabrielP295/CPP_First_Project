@@ -128,7 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="TriangleClass.cpp" />
-    <ClCompile Include="TripExpenses.cpp" />
+    <ClCompile Include="TriangleTester.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TriangleClass.h" />

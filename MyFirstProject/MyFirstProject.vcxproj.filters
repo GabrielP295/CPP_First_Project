@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TripExpenses.cpp">
+    <ClCompile Include="TriangleClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TriangleClass.cpp">
+    <ClCompile Include="TriangleTester.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
