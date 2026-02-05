@@ -8,7 +8,7 @@ public:
 	void calculateArea();
 	double getArea();
 	void setBase(double);
-	void setHeight(double);
+	void setHeight(double);//test commit
 private:
 	double area;
 };
