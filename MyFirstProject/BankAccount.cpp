@@ -7,7 +7,7 @@ BankAccount::BankAccount(string name) {
 
 BankAccount::BankAccount(string name, double balance) {
 	this->Name = name;
-	this->Balance = 0;
+	this->Balance = balance;
 }
 
 void BankAccount::Withdraw(double withdrawValue) {
