@@ -1,13 +1,17 @@
 #include "BankAccount.h"
 
+int BankAccount::id = 1;
+
 BankAccount::BankAccount(string name) {
 	this->Name = name;
 	this->Balance = 0;
+	id++;
 }
 
 BankAccount::BankAccount(string name, double balance) {
 	this->Name = name;
 	this->Balance = balance;
+	id++;
 }
 
 void BankAccount::Withdraw(double withdrawValue) {
@@ -21,7 +25,6 @@ void BankAccount::Withdraw(double withdrawValue) {
 	else {
 		cout << "You cannot withdraw more than money than you have." << endl;
 	}
-
 }
 
 void BankAccount::Deposit(double depositValue) {
@@ -44,4 +47,8 @@ string BankAccount::GetName() {
 
 double BankAccount::GetBalance() {
 	return this->Balance;
+}
+
+int BankAccount::GetId() {
+	return this->id;
 }

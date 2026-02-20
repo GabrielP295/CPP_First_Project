@@ -5,7 +5,7 @@ int main() {
 	char option;
 
 	do {
-		cout << "Menu of Options\n";
+		cout << "Menu of Optionsgi\n";
 		cout << "===============\n\n";
 		cout << "a. Say Good Morning in Spanish\n";
 		cout << "b. Say Good Morning in Portugese\n";
