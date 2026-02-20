@@ -1,6 +1,6 @@
 #pragma once
-#include <iostream>
 #include <string>
+#include <iostream>
 using namespace std;
 
 class BankAccount
@@ -8,6 +8,7 @@ class BankAccount
 private:
 	string Name;
 	double Balance;
+	static int id;
 public:
 	BankAccount(string);
 	BankAccount(string, double);
@@ -16,5 +17,6 @@ public:
 	void SetBalance(double);
 	string GetName();
 	double GetBalance();
+	int GetId();
 };
 
