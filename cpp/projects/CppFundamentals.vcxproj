@@ -19,11 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Greetings.cpp" />
-    <ClCompile Include="GreetingsApp.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Greetings.h" />
+    <ClCompile Include="MultiplicationTable.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
